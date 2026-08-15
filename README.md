@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 Linkly
 
-## Getting Started
+> **🚧 This project is currently under development.**
 
-First, run the development server:
+**Linkly** is a modern URL shortening platform built with **Next.js**, designed to convert long URLs into short, simple, and easy-to-share links.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project is currently under development, with the initial project setup and UI structure in place. New features, improvements, and optimizations will be added as development continues.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚧 Current Status
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The project is currently **under development**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The initial setup, global styling, navigation, and basic project structure have been completed. The core URL shortening functionality and additional platform features are currently being developed.
 
-## Learn More
+## 📋 Features
 
-To learn more about Next.js, take a look at the following resources:
+* 🔗 URL Shortening
+* ⚡ Fast URL Redirection
+* 📱 Fully Responsive Design
+* 🎨 Clean & Modern UI
+* 🧭 Navigation Bar
+* 🔄 Link Management
+* 📊 Link Analytics *(planned)*
+* 🔐 User Authentication *(planned)*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Frontend:** Next.js, React
+* **Styling:** CSS / Tailwind CSS
+* **Language:** JavaScript
+* **Backend:** Next.js Server Actions / API Routes
+* **Database:** MongoDB
 
-## Deploy on Vercel
+## 📌 Development Progress
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* ✅ Project setup
+* 🚧 URL shortening functionality
+* ⏳ Database integration
+* ⏳ Link management
+* ⏳ Analytics
+* ⏳ Authentication
+* ⏳ Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔮 Future Updates
+
+The project will continue to receive new features, improvements, and optimizations, including:
+
+* 🔗 Custom short URLs
+* 📊 Link click analytics
+* 👤 User accounts
+* 📋 Link management dashboard
+* 🔐 Authentication
+* ⏳ Expiring links
+* 📱 Further responsive improvements
+* 🎨 UI/UX enhancements
+* ⚡ Performance optimizations
+* 🌐 Production deployment
+
+## ⭐ Support the Project
+
+If you like the project or find it useful, consider **starring ⭐ the repository**.
+
+More features and improvements will be added as development continues.
+
+---
+
+**Status:** 🚧 Under Development
