@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='h-16 bg-purple-700 flex justify-between items-center text-white pxLink'>
+    <nav className='h-16 bg-purple-700 flex justify-between items-center text-white px-2'>
       <div className='logo font-bold text-lg'>
         Linkly
       </div>
