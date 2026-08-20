@@ -4,13 +4,13 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <nav className='h-16 bg-purple-700 flex justify-between items-center text-white px-2'>
-      <div className='logo font-bold text-lg'>
+      <div className='logo font-bold text-xl'>
         Linkly
       </div>
       <ul className='flex justify-center items-center gap-4'>
         <Link href="/"><li>Home</li></Link>
         <Link href="/about"><li>About</li></Link>
-        <Link href="/generate"><li>Shorten</li></Link>
+        <Link href="/shorten"><li>Shorten</li></Link>
         <Link href="/contact"><li>Contact Us</li></Link>
 
         <li className='flex gap-3'>
