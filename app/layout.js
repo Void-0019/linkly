@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { ToastContainer, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Linkly - URL shortener",
   description: "Linkly — A fast and simple URL shortener",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -25,7 +30,22 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col bg-purple-50">
         <Navbar/>
-        {children}</body>
+        {children}
+        
+        <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover={false}
+          theme="light"
+          transition={Bounce}
+        />
+        </body>
     </html>
   );
 }
