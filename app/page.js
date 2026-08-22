@@ -22,7 +22,7 @@ export default function Home() {
       </p>
       <div className='flex gap-3'>
           <Link href="/shorten"><button className='bg-purple-500 rounded-lg px-3 py-1 font-bold text-white'>Start Here</button></Link>
-          <Link href="/about"><button className='bg-purple-500 rounded-lg px-3 py-1 font-bold text-white'>More</button></Link>
+          <Link href="/about"><button className='bg-purple-500 rounded-lg px-3 py-1 font-bold text-white'>Read More</button></Link>
         </div>
     </div>
     <div className=" flex justify-start relative">
